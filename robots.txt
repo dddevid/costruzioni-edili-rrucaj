@@ -1,0 +1,27 @@
+# Robots.txt per Costruzioni Edili Rrucaj
+# https://dddevid.github.io/costruzioni-edili-rrucaj/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://dddevid.github.io/costruzioni-edili-rrucaj/sitemap.xml
+
+# Disallow crawling di file non necessari
+Disallow: /.git/
+Disallow: /.DS_Store
+Disallow: /Assets/.DS_Store
+
+# Allow crawling delle risorse importanti
+Allow: /Assets/images/
+Allow: /Assets/logo/
+Allow: /styles.css
+Allow: /script.js
+Allow: /404.html
+
+# Crawl-delay per essere rispettosi verso i server
+Crawl-delay: 1
+
+# Informazioni di contatto per i webmaster
+# Email: armir.rrucaj@live.it
+# PEC: costruzioniedilirrucaj@arubapec.it
